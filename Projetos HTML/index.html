@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafio1 DIO.me</title>
+</head>
+<body>
+    <h1 id="inicio">Módulo 1 - Primeiros Passos com HTML</h1>
+    <hr />
+
+    <h2>Índice</h2>
+    <ul>
+        <li><a href="#historia">História dos Computadores</a>
+            <ul>
+                <li><a href="#primeira-geracao">1ª Geração</a></li>
+                <li><a href="#segunda-geracao">2ª Geração</a></li>
+                <li><a href="#terceira-geracao">3ª Geração</a></li>
+                <li><a href="#quarta-geracao">4ª Geração</a></li>
+                <li><a href="#quinta-geracao">5ª Geração</a></li>
+            </ul>
+        </li>
+        <li><a href="#nomes">Grandes nomes da tecnologia</a>
+            <ul>
+                <li><a href="#1">Grace Murray Hopper</a></li>
+                <li><a href="#2">Joseph Carl Robnett Licklider</a></li>
+                <li><a href="#3">Robert E. Kahn e Vinton Cerf</a></li>
+                <li><a href="#4">Tim Berners-Lee</a></li>
+                <li><a href="#5">Marc Andreessen</a></li>
+                <li><a href="#6">Bill Gates</a></li>
+                <li><a href="#7">Steve Jobs</a></li>
+            </ul>
+        </li>
+        <li><a href="#clients">O que são <strong><i>Clients</i></strong>?</a></li>
+        <li><a href="#servers">O que são <strong><i>Servers</i></strong>?</a></li>
+        <li><a href="#estrutura-html">Como é uma estrutura básica de um HTML?</a></li>
+        <li><a href="#referencias">Referências</a></li>
+    </ul>
+
+    <h2 id="historia">História dos Computadores</h2>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <p id="primeira-geracao"><strong><u>1º Geração(1944-1959)</u></strong></p>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <ul>
+        <li><strong><i>Mark I:</i></strong>
+            Um <mark>enorme computador</mark> que pesava quase 5 tonelados, 
+            e ela composto por 78 máquinas de adição e calculadoras, controladas 
+            por dispositivos mecânicos e elétricos.
+            A máquina era operada através de uma fita de papel, na qual se armazenavam, 
+            por meio de perfurações, as instruções codificadas. 
+            Uma vez programado, o computador conseguia calcular automaticamente sequências 
+            de operações aritméticas com números compostos por até 23 dígitos de extensão.
+            O Mark I foi usado apenas para fins militares, incluindo o desenvolvimento da bomba atómica.
+            <br>
+            <img width="350" src="https://cdn.britannica.com/93/23593-050-99D22EC5/Harvard-Mark-I-Howard-Aiken-ballistics-calculations-1943.jpg" alt="Mark I">
+        </li>
+        <li><strong><i>Colossus:</i></strong>
+            Encomendado pelos <mark>serviços secretos britânicos</mark> durante a Segunda Guerra Mundial, o computador foi construído por uma equipa liderada pelo 
+            Dr. Tommy Flowers, para facilitar a descodificação de códigos militares secretos alemães.
+            Uma máquina formada por oito grandes “gabinetes” de 2,3 metros de altura, divididas em duas seções de 5,5 metros de comprimento.
+
+            <br>
+            <img width="350" src="https://cdn.britannica.com/15/25015-050-180E683B/computer-Colossus-Bletchley-Park-Buckinghamshire-England-Funding-1943.jpg" alt="Colossus">
+        </li>
+        <li><strong><i>ENIAC:</i></strong>
+            A máquina foi desenvolvida por uma equipe <mark>majoritariamente feminina</mark>: 
+            seis mulheres foram principais programadoras do computador que mudou os rumos da informática.
+            O ENIAC foi o primeiro computador eletrônico de grande escala do mundo. 
+            O projeto foi idealizado por engenheiros da Escola de Engenharia Eletrônica da Universidade da Pensilvânia. 
+            O objetivo era criar uma máquina capaz de realizar cálculos complexos em uma fração do tempo que levaria um ser humano.
+            <br>
+            <img width="350" src="https://www.cnnbrasil.com.br/wp-content/uploads/sites/12/2021/06/26776_1798DEE935286D54.jpg?w=876&h=484&crop=1" alt="ENIAC">
+        </li>
+    </ul>
+
+    <p id="segunda-geracao"><strong><u>2º Geração(1959-1965)</u></strong></p>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <ul>
+        <li><strong><i>Transistores:</i></strong>
+            Este componente baseava-se nas propriedades semicondutoras de alguns elementos tais como 
+            o germânio e o silício, representando assim uma versão de válvula em estado sólido. 
+            Suas principais vantagens sobre a válvula: tamanho reduzido, menor dissipação de calor, 
+            menor consumo de energia elétrica, apresentava maior velocidade de operação, mais confiável 
+            e sujeito a menores danos mecânicos, mais econômicos.
+        </li>
+        <li><strong><i>Linguagem de programação:</i></strong>
+            Até então a programação era feita em linguagem de máquina, classificada como linguagem de baixo nível, 
+            por razão de muito se distanciar da linguagem utilizada por nós. Além de a codificação ser feita toda 
+            de acordo com o sistema binário, não apresentava nenhuma facilidade para ser projeta, editada e ser 
+            efetuada manutenção de programas. Estas linguagens foram substituídas pelas linguagens de montagem, 
+            conhecidas como Assembly, que contém a mesma instrução das linguagens de máquina, só que representadas 
+            por uma sequencia de códigos simbólicos, que se convencionou chamar de mnemônicos.
+        </li>
+    </ul>
+
+    <p id="terceira-geracao"><strong><u>3º Geração(1965-1970)</u></strong></p>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <ul>
+        <li><strong><i>Circuito Integrado:</i></strong>
+            ma nova tecnologia que propiciava a síntese dos transistores e válvulas numa pequena placa de silício, o chip. 
+            A utilização do chip trouxe uma série de benefícios como, 
+            a redução de tamanho dos computadores, velocidade, baixo custo e baixo consumo de energia.
+        </li>
+    </ul>
+
+    <p id="quarta-geracao"><strong><u>4º Geração(A partir de 1971)</u></strong></p>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <ul>
+        <li><strong><i>Computadores para uso pessoal:</i></strong>
+            Em 1974, a Intel projeta o microprocessador - dispositivo que reúne num mesmo chip, 
+            todas as funções do processador central - tecnologia que permite a criação do computador pessoal, ou microcomputador. 
+            O primeiro computador pessoal é o Apple I, 
+            inventado em 1976 pelos americanos Steve Jobs (1955-) e Stephan Wozniak.
+            Em 1981, a IBM lança o seu PC (Personal Computer), que se torna um sucesso comercial. 
+            O sistema operacional usado é o MS-DOS, desenvolvido pela empresa de softwares Microsoft. 
+            Na época, Bill Gates , o dono da Microsoft, convence a IBM e as demais companhias a adotarem o sistema operacional de sua empresa. 
+            Isso permite que um mesmo programa funcione em micros de diversos fabricantes. 
+            Posteriormente, os PCs passam a usar microprocessadores cada vez mais potentes
+        </li>
+    </ul>
+
+    <p id="quinta-geracao"><strong><u>5º Geração(Polêmica)</u></strong></p>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <ul>
+        <li><strong><i>IA:</i></strong>
+            A Inteligência Artificial é a capacidade que soluções tecnológicas têm de simular a inteligência humana, 
+            realizando determinadas atividades de maneira autônoma e aprendendo por si mesmas, 
+            graças ao processamento de um grande volume de dados que recebem de seus usuários.
+        </li>
+        <li><strong><i>Criptomoedas:</i></strong>
+            As criptomoedas surgiram em 2008 e podem ser usadas com as mesmas finalidades do dinheiro físico em si. 
+            As três principais funções são servir como meio de troca,facilitando as transações comerciais; 
+            reserva de valor, para a preservação do poder de compra no futuro.
+            Genericamente, uma criptomoeda é um tipo de dinheiro – 
+            como outras moedas com as quais convivemos cotidianamente – com a diferença de ser totalmente digital. 
+            Além disso, ela não emitida por nenhum governo (como é o caso do real ou do dólar, por exemplo).
+        </li>
+        <li><strong><i>Metaverso:</i></strong>
+            Metaverso é uma nova realidade virtualizada que substituirá a internet como conhecemos. Trata-se de um 
+            conceito que une a noção de simulação virtual com a realidade prática para permitir novas 
+            funções e operações dentro da rede.
+        </li>
+        <li><strong><i>Computadores Quânticos:</i></strong>
+            O computador quântico pode ser a solução para grandes problemas no futuro próximo, pois são 
+            máquinas super potentes, capazes de realizar calculos em uma velocidade muito maior que os 
+            computadores comuns. Entretanto como toda nova tecnologia, ainda é muito cara e restrita.
+        </li>
+    </ul>
+    
+
+    <h2 id="nomes">Grandes nomes da tecnologia</h2>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <p id="1"><strong><u>Grace Murray Hopper</u></strong></p>
+    <p>
+        Grace Murray Hopper foi almirante e analista de sistemas da Marinha dos Estados Unidos
+         nas décadas de 1940 e 1950, criadora da linguagem de programação de alto nível Flow-Matic — 
+         base para a criação do COBOL — e uma das primeiras programadoras do computador Harvard Mark I em 1944.
+    </p>
+
+    <p id="2"><strong><u>Joseph Carl Robnett Licklider</u></strong></p>
+    <p>
+        Licklider foi o primeiro gestor do programa de pesquisa de computador do DARPA, 
+        começando em Outubro de 1962. Enquanto trabalhando neste projecto, ele convenceu 
+        os seus sucessores Ivan Sutherland, Bob Taylor e Lawrence G. Roberts da importância 
+        do conceito de computadores liagados por redes.
+    </p>
+
+    <p id="3"><strong><u>Robert E. Kahn e Vinton Cerf</u></strong></p>
+    <p>
+        Kahn e Cerf criaram juntos os protocolos TCP/IP, a arquitetura de internet, 
+        que foram as bases para que pudessemos ter acesso à rede universal que temos hoje. 
+        Os dois foram responsáveis pela criação de regras técnicas que permitiram que vários 
+        computadores distintos (de diferentes marcas) pudessem entrar numa mesma rede para partilharem informações.
+    </p>
+
+    <p id="4"><strong><u>Tim Berners-Lee</u></strong></p>
+    <p>
+        Criador do famoso "WWW", Tim viu a oportunidade de unir hipertexto com internet e criar a World Wide Web. 
+        O primeiro site foi construído no CERN e foi ao ar em 1991 e era uma página simples de texto que oferecia 
+        uma explicação sobre o que era a World Wide Web, como alguém poderia criar um navegador, 
+        configurar um servidor web, etc.
+    </p>
+
+    <p id="5"><strong><u>Marc Andreessen</u></strong></p>
+    <p>
+        Criador do primeiro navegador mais "amigável" p chamando de <mark>Mosaic</mark>, um navegador Web acessível 
+        que integrava gráficos e podia funcionar em diferentes categorias de computadores. 
+        Ele foi disponibilizado ao público a partir de 1993.
+    </p>
+
+    <p id="6"><strong><u>Bill Gates</u></strong></p>
+    <p>
+        Bill Gates é um empresário americano mundialmente conhecido por fundar a Microsoft, a mais conhecida 
+        empresa de software do mundo. É também reconhecidamente um dos pioneiros na revolução do computador 
+        voltado para o consumidor comum.
+    </p>
+
+    <p id="7"><strong><u>Steve Jobs</u></strong></p>
+    <p>
+        Citado anteriormente, fez parte da 4ª geração dos computadores, Steve Jobs consagrou na história quando 
+        fundou a Apple Inc, que comercializava um computador pessoal.
+    </p>
+
+    <h2 id="clients">O que são <strong><i>Clients</i></strong>?</h2>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <p>
+        No desenvolvimento da web, "lado do cliente" refere-se a tudo em um aplicativo 
+        web que é exibido ou ocorre no cliente (dispositivo do usuário final). 
+        Isso inclui o que o usuário vê, como texto, imagens e o resto da IU, junto com quaisquer 
+        ações que um aplicativo execute no navegador do usuário.
+        O lado do cliente também é conhecido como front-end, embora esses dois termos não signifiquem exatamente a mesma coisa. 
+        O lado do cliente se refere apenas ao local onde os processos são executados, enquanto o 
+        front-end se refere aos tipos de processos que são executados no lado do cliente.
+    </p>
+
+
+    <h2 id="servers">O que são <strong><i>Servers</i></strong>?</h2>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <p>
+        Muito parecido com o lado do cliente, o "lado do servidor" significa tudo o que acontece no servidor, 
+        em vez de no cliente. No passado, quase toda a lógica de negócios era executada no lado do servidor e 
+        isso incluía renderizar páginas da web dinâmicas, interagir com bancos de dados, autenticação de 
+        identidade e notificações push.
+
+        O problema de hospedar todos esses processos no lado do servidor é que cada solicitação envolvendo um deles 
+        tem que viajar desde o cliente até o servidor, todas as vezes. Isso apresenta uma grande quantidade de latência. 
+        Por esse motivo, os aplicativos contemporâneos executam mais códigos no lado do cliente; um caso de uso é renderizar 
+        páginas da web dinâmicas em tempo real, executando scripts no navegador que fazem alterações no conteúdo que o usuário vê.
+    </p>
+
+    <h2 id="estrutura-html">Como é uma estrutura básica de um HTML?</h2>
+    <small><a href="#inicio">[Voltar]</a></small>
+    <p>
+        Ao acessar uma página web através de um navegador, ele é capaz de interpretar o código HTML e renderizá-lo de forma compreensível para o 
+        usuário final, exibindo textos, botões etc. com as configurações definidas por meio das diversas tags que essa linguagem dispõe.
+        Um documento HTML é composto por tags, as quais possuem um nome e aparecem entre os sinais "<" , ">" e devem ser fechadas com "/>".
+
+    </p>
+    <img width="350" src="https://miro.medium.com/v2/resize:fit:1000/0*6CkY2U51n8WaHUGt.gif" alt="Estrutura Básica do HTML">
+
+
+    <h2 id="referencias"> Referências: </h2>
+    <a href=""></a>
+    <a href="https://www.cloudflare.com/pt-br/learning/serverless/glossary/client-side-vs-server-side/">Cloudflare: Clients e Servers</a>
+    <a href="https://www.devmedia.com.br/html-basico-codigos-html/16596">DEVMEDIA: Estrutura HTML</a>
+</body>
+</html>
